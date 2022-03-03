@@ -48,7 +48,7 @@ your PCD files will be converted into 4 different format:
 5. In *inside-.pcd.bin* - this is to read the binary data and to make sure it is readed correctly.
 because our PCD data have 4 information which are XYZI. The binary data is readed and arrange into a array matrix with [*,4] size. 
 
-If your PCD files have ring information IYZIR:
+If your PCD files have ring information XYZIR:
 
 change the array size in line *92* in *pcd2bin.py* from
 ```bash
