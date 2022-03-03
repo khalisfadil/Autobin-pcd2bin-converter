@@ -8,7 +8,6 @@ import shutil
 import struct
 import pickle
 import os.path
-r"./txt2bin/txt/"
 
 ##root directory where raw file is stored in pcd file
 pcd_raw_dirroot = r"./file/raw_pcd/"
