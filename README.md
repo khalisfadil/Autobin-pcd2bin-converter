@@ -17,7 +17,7 @@ pip install --user git+https://github.com/DanielPollithy/pypcd.git
 ```
 go to the file location (locate your pypcd.py  file) at,
 \
- */venv/lib/python3.8/site-packages/pypcd/pypcd.py* \
+` */venv/lib/python3.8/site-packages/pypcd/pypcd.py* ` \
 remove,
 ```bash
 from StringIO import StringIO
